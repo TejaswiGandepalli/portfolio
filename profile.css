@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: brown;
+    padding: 15px 50px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .a-el {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .a-el:hover {
+    color: lightgray;
+  }
+  
+  /* Home Section */
+  .home {
+    background-color: #e0f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .home-left, .home-right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-p {
+    font-size: 18px;
+    color: #555;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Skills Section */
+  .services {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .services-h1 {
+    font-size: 36px;
+    color: brown;
+    margin-bottom: 40px;
+  }
+  
+  .ser-sub-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .services-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .services-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ser-h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ser-p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .projects-h1 {
+    font-size: 36px;
+    color: brown;
+    margin-bottom: 40px;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  .contact-h1 {
+    font-size: 36px;
+    color: brown;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    transition: transform 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
